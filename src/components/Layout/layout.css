@@ -1,0 +1,12 @@
+.Layout-Container{
+    display: flex;
+    flex-direction: column;
+    height: 900px;
+    background-color: #141414;
+}
+
+#root{
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+}
