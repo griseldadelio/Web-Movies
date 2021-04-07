@@ -1,0 +1,78 @@
+.MainNav {
+    box-sizing: border-box;
+    position: fixed;
+    width: 100%;
+    height: 75px;
+    left: 0;
+    bottom: 0;
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid #202124;
+    }
+
+@media (min-width: 1024px){
+    .MainNav {
+        width: 100px;
+        height: 100%;
+        border-top: none;
+        border-right: 1px solid #202124;
+    }
+}
+
+.MainNav-List {
+    display: flex;
+    flex-grow: 1;
+
+}
+    
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+@media (min-width: 1024px){
+    .MainNav-List {
+        height: 100%;
+        flex-direction: column;
+    }
+}
+
+.MainNav-Item {
+    display: flex;
+    flex: 1;
+}
+
+li {
+    list-style-type: none;
+}
+
+@media (min-width: 1024px){
+    .MainNav-Item {
+        height: 100px;
+        flex: initial;
+    }
+}
+
+.MainNav-Link {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#fff;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+    touch-action: manipulation;
+}
+
+.Icon {
+    stroke: currentColor;
+    fill: currentColor;
+    transition: all 0.2s ease-out;
+}

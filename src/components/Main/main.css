@@ -1,0 +1,13 @@
+.PageContent {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  color: #ffffff;
+}
+
+@media (min-width: 1024px){
+  .PageContent {
+      padding-left: 30px;
+      height: 100%;
+    }
+}
