@@ -1,7 +1,7 @@
 .Layout-Container{
     display: flex;
     flex-direction: column;
-    height: 900px;
+    height: auto;
     background-color: #141414;
 }
 

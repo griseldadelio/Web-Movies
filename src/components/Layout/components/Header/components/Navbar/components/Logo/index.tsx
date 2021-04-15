@@ -1,6 +1,6 @@
 import React, { FC } from "react";
 import { Image } from 'react-bootstrap'
-import logo from '../../../../../../../../assets/logo-cine.png'
+import logo from '../../../../../../../../assets/img/logo-cine.png'
 
 const Logo: FC = () => {
     return (
