@@ -1,12 +1,11 @@
 import { FC } from "react";
 import { Header, Footer, Aside } from './components';
-import './layout.css'
 
 export const Layout: FC = ({ children }) => {
     return (
         <>
-            <Header />
-            <div className="Layout-Container">
+            <div className="Wrapper">
+                <Header />
                 <Aside />
                 {children}
                 <Footer />

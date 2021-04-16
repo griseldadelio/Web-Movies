@@ -16,7 +16,7 @@ export const CardCarousel: FC<Props> = () => {
             setMovies(response);
         })
     }, []);
-    const lastMovies = movies && movies.slice(0, 5)
+    const lastMovies = movies && movies.slice(0, 2)
     const imgWith = "w1280"
     console.log(movies)
 
@@ -28,7 +28,7 @@ export const CardCarousel: FC<Props> = () => {
             <Carousel fade>
                 <Carousel.Item>
                     <CardGroup>
-                        {lastMovies && lastMovies.map((movie: MovieType) => (
+                        {movies && movies.map((movie: MovieType) => (
                             <Card className='mt-5 m-2 bg-dark text-white'>
                                 <img
                                     className="d-block w-100"

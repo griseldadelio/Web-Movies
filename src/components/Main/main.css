@@ -1,0 +1,11 @@
+@media (min-width: 1024px){
+.PageContent {
+    padding-left: 100px;
+    }
+}
+
+.PageContent {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}

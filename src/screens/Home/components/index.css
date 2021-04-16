@@ -1,9 +1,7 @@
 .carousel-indicators{
     display: none !important;
 }
-.carousel-control-next, .carousel-control-prev {
-    display: none !important;
-}
+
 
 .CardCarousel-Heading {
     display: flex;
@@ -18,3 +16,17 @@
     letter-spacing: 0.4px;
 }
 
+@media (min-width: 1024px){
+.Intro-Figure {
+        width: 70%;
+        height: 100%;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+}
+
+
+.Intro-Figure {
+    position: relative;
+}

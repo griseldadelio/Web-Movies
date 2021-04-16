@@ -1,8 +1,14 @@
-import React, { FC } from 'react'
+import React, { FC, ReactNode } from 'react'
+import './main.css'
 
-export const Main: FC = ({ children }) => {
+interface Props {
+    className?: string;
+    children?: ReactNode;
+}
+
+export const Main: FC<Props> = ({ className, children }) => {
     return (
-        <main>
+        <main className='PageContent'>
             {children}
         </main>
     )
